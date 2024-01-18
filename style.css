@@ -17,12 +17,15 @@ body {
     position: sticky;
     top: 0; 
     z-index: 100;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
 }
 
 .branding {
     display: flex;
     align-items: center;
-    margin-left: 16px;
+    margin-left: 32px;
 }
 
 .name {
@@ -67,10 +70,11 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     cursor: pointer;
     border-radius: 7px;
-    margin-right: 16px;
+    margin-right: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .top-nav a.cta-button:hover {
@@ -103,6 +107,61 @@ body {
     width: 50%; 
 }
 
+h1 {
+    font-size: 48px; 
+}
+
+h2 {
+    font-size: 18px; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Update the following styles in your existing CSS */
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px; /* Increased max-width for a larger container */
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.services-container h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.service-icon {
+    max-width: 50px; /* Set a maximum width for the icons */
+    margin-bottom: 10px; /* Add space between the icon and the title */
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px;
+    flex: 1;
+    max-width: 300px;
+    text-align: center; /* Center text in the card */
+}
+
+.service-card h4 {
+    color: #3d9a8b;
+}
+
+.service-card p {
+    color: #555;
+}
+
 section {
     height: 100vh; 
     padding: 20px;
@@ -113,14 +172,16 @@ section#home {
     height: auto;
 }
 
-section#about {
-    
+section#services {
+    height: auto;
+    padding: 100px 0px;
+    background-color: #9ce6ff;
 }
 
 section#skills {
-    
+    /* height: auto; */
 }
 
 section#contact {
-    
+    /* height: auto; */
 }
