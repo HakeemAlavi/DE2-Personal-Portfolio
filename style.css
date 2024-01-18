@@ -178,6 +178,10 @@ section#services {
     background-color: #9ce6ff;
 }
 
+section#about {
+    /* height: auto; */
+}
+
 section#skills {
     /* height: auto; */
 }
