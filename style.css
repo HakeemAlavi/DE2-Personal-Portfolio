@@ -71,3 +71,25 @@ body {
 .top-nav a.cta-button:hover {
     background-color: #3B8AC4; 
 }
+
+section {
+    height: 100vh; 
+    padding: 20px;
+    margin: 0; 
+}
+
+section#home {
+    
+}
+
+section#about {
+    
+}
+
+section#skills {
+    
+}
+
+section#contact {
+    
+}
