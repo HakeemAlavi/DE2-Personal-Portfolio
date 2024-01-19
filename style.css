@@ -71,7 +71,7 @@ body {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    border-radius: 7px;
+    border-radius: 8px;
     margin-right: 32px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -119,6 +119,22 @@ h2 {
 
 p {
     font-size: 16px;
+}
+
+.styled-link {
+    display: inline-block;
+    padding: 14px 16px;
+    background-color: #3d9a8b;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.styled-link:hover {
+    background-color: #2eb19f;
 }
 
 .services-container {
@@ -210,6 +226,35 @@ p {
     line-height: auto;
 }
 
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    flex: 1;
+    min-width: 300px; /* Adjust the minimum width of the project card */
+    max-width: 800px; /* Adjust the maximum width of the project card */
+    text-align: center;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px; /* Increased margin for better spacing */
+    border-radius: 8px;
+}
+
 section {
     height: 100vh; 
     padding: 20px;
@@ -229,11 +274,13 @@ section#services {
 section#about {
     height: auto;
     padding: 100px 0px;
-    background-color: #86d9f4;
+    background-color: #95daf1;
 }
 
 section#skills {
-    /* height: auto; */
+    height: auto;
+    padding: 100px 0px;
+    background-color: #9ce6ff;
 }
 
 section#contact {
