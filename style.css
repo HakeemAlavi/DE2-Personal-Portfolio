@@ -121,12 +121,10 @@ p {
     font-size: 16px;
 }
 
-/* Update the following styles in your existing CSS */
-
 .services-container {
     display: flex;
     justify-content: center;
-    max-width: 1000px; /* Increased max-width for a larger container */
+    max-width: 1000px; 
     margin: 0 auto;
     text-align: center;
     flex-wrap: wrap;
@@ -139,8 +137,8 @@ p {
 }
 
 .service-icon {
-    max-width: 50px; /* Set a maximum width for the icons */
-    margin-bottom: 10px; /* Add space between the icon and the title */
+    max-width: 50px; 
+    margin-bottom: 10px; 
 }
 
 .service-card {
@@ -151,7 +149,7 @@ p {
     margin: 20px;
     flex: 1;
     max-width: 300px;
-    text-align: center; /* Center text in the card */
+    text-align: center; 
 }
 
 .service-card h4 {
@@ -160,6 +158,48 @@ p {
 
 .service-card p {
     color: #555;
+}
+
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.creative-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 50%; 
+    margin-left: 5px;
+}
+
+.grid-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.about-icon {
+    max-width: 50px;  
+}
+
+.about-content {
+    width: 50%; 
+}
+
+.about-content h2 {
+    margin-top: 0; 
+    font-size: 2em;
+    margin-bottom: 30px;
+    width: 100%;
 }
 
 section {
@@ -179,7 +219,9 @@ section#services {
 }
 
 section#about {
-    /* height: auto; */
+    height: auto;
+    padding: 100px 0px;
+    background-color: #86d9f4;
 }
 
 section#skills {
