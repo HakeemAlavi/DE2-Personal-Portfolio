@@ -412,6 +412,10 @@ section#contact {
 
     .header {
         text-align: center; /* Center the text in the header */
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-left: -20px;
     }
 
     .branding {
@@ -419,24 +423,25 @@ section#contact {
     }
 
     .top-nav {
-        margin: 10px 0; /* Adjust top and bottom margin */
+        margin: 10px 0; 
         display: flex;
-        justify-content: space-between; /* Space items evenly */
-        align-items: center; /* Center vertically */
-        flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+        justify-content: space-between; 
+        align-items: center; 
+        flex-wrap: wrap; 
     }
 
-    .top-nav a {
-        padding: 10px; /* Adjust padding as needed */
-        margin: 5px; /* Add margin between links */
-        font-size: 8px; /* Adjust font size as needed */
-        float: left; /* Float links to the left */
+    .top-nav a { 
+        margin: 5px; 
+        font-size: 8px; 
+        display: block;
+        padding: 7px 8px;
     }
 
     .top-nav a.cta-button {
-        margin: 0px 10px; /* Adjust margin for the button */
-        font-size: 8px; /* Adjust font size for the button */
-        float: right; /* Float button to the right */
+        margin: 5px 0px;
+        font-size: 8px; 
+        float: right; 
+        padding: 7px 8px;
     }
 
     .content {
