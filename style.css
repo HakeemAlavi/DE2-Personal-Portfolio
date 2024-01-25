@@ -370,7 +370,7 @@ p {
 
 .copyright {
     color: white;
-    padding: 10px; /* Add padding */
+    padding: 10px; 
     margin-right: 22px;
 }
 
@@ -405,4 +405,127 @@ section#skills {
 section#contact {
     height: auto;
     padding: 100px 0px;
+}
+
+/* Media Query for smaller screens (e.g., mobile phones) */
+@media only screen and (max-width: 768px) {
+
+    .header {
+        font-size: 6px;
+        font-weight: bold;
+    }
+    .branding {
+        display: none;
+    }
+    .top-nav {
+        margin-left: 18px;
+        
+    }
+    .top-nav a.cta-button {
+        margin-right: 0;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+        align-items: center; 
+        padding: 20px; 
+    }
+
+    .text {
+        width: 100%; 
+        text-align: center; 
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+
+    .image-container {
+        width: 100%; 
+        max-width: 280px; 
+        max-height: 280px;
+    }
+
+    h1 {
+        font-size: 2em; 
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 57%; 
+        max-width: none; 
+        margin: 10px 40px; 
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .creative-grid {
+        width: 100%; 
+        margin-left: 0;
+        margin-right: 0; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+
+    .grid-card {
+        width: 50px;
+        height: 50px; 
+        margin: 10px; 
+    }
+
+    .about-content {
+        width: 100%; 
+        margin-right: 20px; 
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .about-content h2 {
+        padding-top: 80px; 
+    }
+
+    .about-content p {
+        margin: 0 70px; 
+        line-height: 1.6; 
+    }
+
+    .contact-card {
+        padding: 20px; 
+        margin: 10px 72px; 
+        width: 90%; 
+        max-width: none; 
+    }
+
+    .bottom-nav-bar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bottom-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-nav li {
+        margin-right: 14px;
+    }
+
+    .bottom-nav a img {
+        max-width: 20px;
+        padding: 10px;
+    }
+
+    .copyright {
+        margin-right: 0;
+        margin-top: 10px;
+    }
 }
