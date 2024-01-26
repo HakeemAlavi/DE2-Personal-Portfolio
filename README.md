@@ -5,4 +5,4 @@ My GitHub Pages Repository
 <br><br>
 ### NB:
 
-The React alternative to this website can be found in the DE2-Personal-Portfolio-React repository
+The React alternative to this website can be found in the [DE2-Personal-Portfolio-React](https://github.com/HakeemAlavi/DE2-Personal-Portfolio-React) repository
